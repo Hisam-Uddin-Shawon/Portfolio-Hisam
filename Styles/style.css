@@ -1,0 +1,17 @@
+/* Nav related styles */
+nav ul li a:hover{
+    color: brown;
+}
+nav ul li a:active{
+    color: crimson;
+}
+.visited{
+    color: blueviolet;
+}
+
+/* Rensposive Design */
+@media screen and (max-width:414px){
+    nav{
+        flex-direction: grid;
+    }
+}

@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="Styles/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="w-[1280px] mx-auto">
     <header class="max-w-[1130px] mx-auto">
-        <nav class="flex justify-between my-5">
+        <nav class="flex flex-wrap justify-between my-5">
             <div class="">
                 <h3 class="text-[#5E3AEE] font-[700] text-[27px] "><code>&lt;/shawon599&gt;</code></h3>
             </div>
             <div>
                 <ul class="flex gap-5 font-[500] text-[26px] my-1">
-                    <li><a class="font-bold" href="index.html">Home</a></li>
+                    <li><a class="font-bold visited" href="index.html">Home</a></li>
                     <li><a href="project.html">Projects</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -65,7 +66,7 @@
         </section>
     </header>
 
-    <main>
+    <main class="hidden">
         <section class="flex justify-between w-[1280.48px] h-[490px] mx-auto text-white bg-[#0F1221] items-center pl-24 pr-28">
             <div>
                 <div class="w-[205px] h-[27px] bg-[#5E3AEE]"></div>
@@ -149,8 +150,8 @@
         </section>
     </main>
 
-    <footer>
-        <section class="bg-[#1b102e] py-[70px] px-[70px] text-white w-[1280px] flex justify-around">
+    <footer hidden>
+        <section class="bg-[#1b102e] mx-auto py-[70px] px-[70px] text-white w-[1280px] flex justify-around">
             <div class="grid gap-y-5 w-[50%]">
                 <div class="h-[60px] flex items-center gap-3">
                     <img class="w-[50px] h-[50px]" src="resources/Location_icon.png" alt="">
